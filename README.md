@@ -35,7 +35,7 @@ docker run -it --rm -w /app -v $(pwd)/first-app:/app solareenlo/angular-cli sh
 # docker-compose を使ってコンテナを立ち上げる
 docker-compose -f docker-compose.serve.yml up -d
 # コンテナの中に入って作業する
-docker-compose -f docker-compose.serve.yml sh
+docker-compose -f docker-compose.serve.yml exec angular sh
 # 関連するコンテンを全て止める
 docker-compose -f docker-compose.serve.yml stop
 # 関連するコンテナを全削除
