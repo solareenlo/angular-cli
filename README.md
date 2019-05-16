@@ -28,7 +28,7 @@ docker run -d -w /app -v $(pwd):/app -p 4200:4200 solareenlo/angular-cli ng serv
 ```
 そして, 任意のブラウザで`localhost:4200`を開く.
 
-### Dockerfileとdocker-compose.serve.ymlを使って動かす
+### Dockerfileとdocker-compose.ymlを使って動かす
 ```bash
 # first-appを作成
 docker run -it --rm -w /app -v $(pwd):/app solareenlo/angular-cli ng new first-app
