@@ -1,7 +1,7 @@
 FROM node:10.16.0-alpine
 
 RUN apk update \
-  && npm install -g @angular/cli@8.1.1 \
+  && npm install -g @angular/cli@8.1.2 \
   && rm -rf /tmp/* /var/cache/apk/* *.tar.gz ~/.npm \
   && npm cache clear --force \
   && yarn cache clean \
