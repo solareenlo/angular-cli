@@ -1,4 +1,6 @@
-# angular-cli
+# solareenlo/angular-cli
+[![Docker Automated build](https://img.shields.io/docker/automated/solareenlo/angular-cli.svg)](https://hub.docker.com/r/solareenlo/angular-cli/)
+[![Docker Image Size](https://images.microbadger.com/badges/image/solareenlo/angular-cli.svg)](https://microbadger.com/images/solareenlo/angular-cli "Get your own image badge on microbadger.com")))]]))
 Angular CLIのDockerfile置き場.
 
 ## Requirement
@@ -37,6 +39,8 @@ docker run -it --rm -w /app -v $(pwd):/app solareenlo/angular-cli ng new first-a
 cd first-app
 # コンテナに入って作業する
 docker run -it --rm -w /app -v $(pwd):/app solareenlo/angular-cli sh
+# docker-compose.yaml をダウンロードする
+curl -O https://raw.githubusercontent.com/solareenlo/docker-angular-cli/master/docker-compose.yml
 # docker-compose を使ってコンテナを立ち上げる
 docker-compose up -d
 # コンテナの中に入って作業する
