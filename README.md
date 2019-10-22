@@ -1,6 +1,7 @@
 # solareenlo/angular-cli
 [![Docker Automated build](https://img.shields.io/docker/automated/solareenlo/angular-cli.svg)](https://hub.docker.com/r/solareenlo/angular-cli/)
-[![Docker Image Size](https://images.microbadger.com/badges/image/solareenlo/angular-cli.svg)](https://microbadger.com/images/solareenlo/angular-cli "Get your own image badge on microbadger.com")))]]))
+[![Docker Image Size](https://images.microbadger.com/badges/image/solareenlo/angular-cli.svg)](https://microbadger.com/images/solareenlo/angular-cli "Get your own image badge on microbadger.com")
+
 Angular CLIのDockerfile置き場.
 
 ## Requirement
